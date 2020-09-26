@@ -31,11 +31,7 @@ const numberOfFilms = +prompt('Сколько фильмов вы уже пос�
 
 const personalMovieDB = {
     count: numberOfFilms,
-    movies: {
-        // lastMovie: lastMovie[0],
-        // movieRating: movieRating[0]
-
-    },
+    movies: {},
     actors: {},
     genres: [],
     privat: false
